@@ -631,6 +631,11 @@ progress {
   line-height: 1;
 }
 
+.icons{
+  color: white;
+  justify-content: space-between;
+}
+
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
