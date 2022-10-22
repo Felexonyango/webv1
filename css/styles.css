@@ -11518,58 +11518,62 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-//
-.packages .box-container{
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
   display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
   flex-wrap: wrap;
-  gap:2rem;
 }
 
-.packages .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
-  overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
 }
 
-.packages .box-container .box img{
-  height: 25rem;
-  width:50%;
-  object-fit: cover;
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
 }
 
-.packages .box-container .box .content{
-  padding:2rem;
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
-.packages .box-container .box .content h3{
-  font-size:2rem;
-  color:#333;
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
 }
 
-.packages .box-container .box .content h3 i{
-  color:var(--orange);
-}
-
-.packages .box-container .box .content p{
-  font-size:1.7rem;
-  color:#666;
-  padding:1rem 0;
-}
-
-.packages .box-container .box .content .stars i{
-  font-size:1.7rem;
-  color:var(--orange);
-}
-
-.packages .box-container .box .content .price{
-  font-size: 2rem;
-  color:#333;
-  padding-top: 1rem;
-}
-
-.packages .box-container .box .content .price span{
-  color:#666;
-  font-size: 1.5rem;
-  text-decoration: line-through;
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
 }
