@@ -11459,6 +11459,9 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
